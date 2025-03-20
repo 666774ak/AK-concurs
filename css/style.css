@@ -58,9 +58,9 @@ html,
 body {
 	background: #383838;
 	color: #00dd00;
-	font-size: 64.5%;
 	font-size: 1.4em;
 	font-family: 'Geo', Courier;
+	scroll-behavior: smooth;
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -206,12 +206,12 @@ nav.site ul li {
 
 .left {
   width: 200px;
-  padding: 10px;
+  padding-left: 0;
 }
 
 .left ul {
   position: fixed;
-  display: block;
+	padding-inline-start: 20px;
   background-color: transparent;
 }
 
