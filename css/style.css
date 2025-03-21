@@ -136,7 +136,7 @@ nav.site ul li {
 }
 
 .overlay:before {
-	background: linear-gradient(#101010 50%, #10101033 50%), linear-gradient(90deg, #ff000008, #00ff0005, #0000ff08);
+	background: linear-gradient(#101010b0 50%, #10101033 50%), linear-gradient(90deg, #ff000008, #00ff0005, #0000ff08);
 	background-size: 100% 3px, 6px 100%;
 	content: "";
 	display: block;
@@ -146,7 +146,7 @@ nav.site ul li {
 		right: 0;
 		bottom: 0;
 		left: 0;
-	z-index: 2;
+	z-index: 3;
 }
 	
 .overlay:after {
@@ -222,7 +222,7 @@ nav.site ul li {
 }
 
 .left ul li a {
-  color: #00dd0085;
+  color: #5cf35c;
   display: block;
   padding: 5px;
   text-align: center;
@@ -235,7 +235,7 @@ nav.site ul li {
 }
 
 .right {
-	color: #00dd0085;
+	color: #52fd52ea;
   width: auto;
 	margin-left: 250px;
   padding: 10px;
@@ -243,9 +243,9 @@ nav.site ul li {
 
 a.reboot {
 	background: transparent;
-	border: 1px solid #00dd00;
+	border: 1px solid #5cf35c;
 	clear: both;
-	color: #00dd00;
+	color: #5cf35c;
 	cursor: hand;
 	display: inline-block;
 	font-family: 'Geo', Courier;
