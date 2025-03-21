@@ -241,6 +241,14 @@ nav.site ul li {
   padding: 10px;
 }
 
+.arc {
+	position: absolute;
+	max-width: 300px;
+	padding-top: 20px;
+	margin-left: 240px;
+	z-index: 2;
+}
+
 a.reboot {
 	background: transparent;
 	border: 1px solid #5cf35c;
