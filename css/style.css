@@ -177,7 +177,7 @@ embed, iframe {
 }
 
 .overlay:target+.popup {
-	top: 30%; 
+	top: 10%; 
 	visibility: visible;
 	opacity: 1; 
 }
