@@ -127,6 +127,85 @@ nav.site ul li {
   width: auto;
 }
 
+.is-image {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display:block;
+	margin: 10%;
+	width: 100%;
+	height: auto;
+}
+
+embed, iframe {
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0; 
+	display:block;
+	margin: auto;
+	min-width: 320px;
+	max-width: 600px;
+	width: 100%;
+}
+
+.popup h1 { 
+	color: #00dd00;
+	text-align: justify;
+	text-indent: 250px;
+}
+
+.popup {
+	top: 0;
+	right: 0;
+	left: 0;
+	font-size: 25px;
+	z-index: 2;
+	display: block;
+	visibility: hidden;
+	margin: 0 auto;
+	width: 90%;
+	min-width: 320px;
+	max-width: 600px;
+	position: fixed;
+	padding: 15px;
+	border: 2px solid #2ab40e;
+	background-color: #383838;
+	-webkit-transition: all ease .4s;
+	transition: all ease .4s;
+}
+
+.overlay:target+.popup {
+	top: 30%; 
+	visibility: visible;
+	opacity: 1; 
+}
+
+.close {
+	position: absolute;
+	top: -10px;
+	right: -10px;padding: 0;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #16ac22;
+	background-color: #3d3d3dcc;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 40px;
+}
+.close:before {
+	color: #ffffffe6;
+	content: "X";
+	text-shadow: 0 -1px #000000e6;
+	font-size: 24px;
+}
+
+.close:hover {
+	background-color: #fc1400cc;
+}
+
 .overlay {
 	height: 1px;
 	position: absolute;
@@ -239,14 +318,15 @@ nav.site ul li {
   width: auto;
 	margin-left: 250px;
   padding: 10px;
+	z-index: auto;
 }
 
 .arc {
 	position: absolute;
 	max-width: 300px;
 	padding-top: 20px;
-	margin-left: 240px;
-	z-index: 2;
+	margin-left: 20%;
+	z-index: 1;
 }
 
 a.reboot {
