@@ -94,13 +94,13 @@ span { animation: blink 2s infinite }
 
 ul a:before,
 p a:before {
-	color: #00dd00;
+	color: #00dd0085;
 	content: ' [ ';
 }
 
 ul a:after,
 p a:after {
-	color: #00dd00;
+	color: #00dd0085;
 	content: ' ] ';	
 }
 
@@ -200,8 +200,9 @@ nav.site ul li {
 
 .left,
 .right {
-  float: left;
-  display: block;
+	position: relative;
+	display: block;
+	z-index: 2;
 }
 
 .left {
@@ -211,7 +212,7 @@ nav.site ul li {
 
 .left ul {
   position: fixed;
-	padding-inline-start: 20px;
+	padding-inline-start: 0;
   background-color: transparent;
 }
 
@@ -221,7 +222,7 @@ nav.site ul li {
 }
 
 .left ul li a {
-  color: #00dd00;
+  color: #00dd0085;
   display: block;
   padding: 5px;
   text-align: center;
@@ -234,6 +235,7 @@ nav.site ul li {
 }
 
 .right {
+	color: #00dd0085;
   width: auto;
 	margin-left: 250px;
   padding: 10px;
